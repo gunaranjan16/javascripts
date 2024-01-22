@@ -3,7 +3,7 @@
 var a= 10
 console.log("Assignment Operator Output:",a)
 
-//Arithmetic operator-> +,-,*,/,%
+//Arithmetic operator-> +,-,*,/,%,++,--
 var aA =10
 var bA = 10
 console.log(typeof aA)
@@ -24,3 +24,19 @@ console.log("Logical Operator ! Output Addition: ", !bL)
 console.log(100||20&&0)//ANS 100
 console.log((100||20)&&0)//ANS 0
 console.log(!-19)//ANY NUMBER OTHER THAN = 0 FALSE
+
+//Relational operator -> <,>,<=,>=,===,!==  OUTPIT==> true or false
+aR=10
+bR=20
+console.log("Relational operator > is :",aR>bR)
+console.log("Relational operator >= is :",aR>=bR)
+console.log("Relational operator < is :",aR<bR)
+console.log("Relational operator <= is :",aR<=bR)
+console.log("Relational operator === is :",aR===bR)
+console.log("Relational operator !== is :",aR!==bR)
+
+
+
+
+
+
