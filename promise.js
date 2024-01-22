@@ -1,30 +1,21 @@
-
-function isAuthenticated(){
-    return 0
-}
-//PROMISES
-function login(){
-    return new Promise(function(response,no response){
-        setTimeout(function(){
-            if(response){
-                 unsuccResp("is success")
-            }
-            no response{
-                succResponse("failed")
-
-
-            }
-
-        },1000)
-
-    })
-function xyz(){
-    console.log("hello");
-}
-
-login.then(function(message){
-    console.log(message){
-
+function isAuthenticated() {
+    return Math.random() < 1;
     }
-
-})
+    function Login() {
+    return new Promise(function (response, noresponse) {
+    setTimeout(function () {
+    if (isAuthenticated()) {
+    response("Your Authentication is Successful");
+    } else {
+    noresponse("Your Authentication is not Successful");
+    }
+    }, 1000);
+    });
+    }
+    Login()
+    .then(function (message) {
+    console.log(message);
+    })
+    .catch(function (message) {
+    console.log(message);
+    });
